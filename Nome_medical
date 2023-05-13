@@ -1,0 +1,204 @@
+<!Doctype html>
+
+<html>
+<head>
+<title> My first web page </title>
+</head>
+
+<body>
+	<h1> NOME PRODUCTS AND SERVICES </h1>
+
+<p> Welcome to Nome Medical Imaging and Diagnostic Centre </p>
+
+<h2> lists of services in nome medical</h2>
+<ul>
+	 <li> Lab </li>
+	 <li> Xray </li>
+	 <li> Reception </li>
+</ul>
+
+<table>
+
+<tr>
+  <th> Lab <th>
+  <th> Xray <th>
+  <th>Reception <th>
+</tr>
+
+<tr> 
+  <td> Pt Strip <td>
+  <td> Cxr </td>
+  <td> Typist </td>
+</tr>
+
+<tr> 
+  <td> 2ml syringe <td>
+  <td> Lumbosacral </td>
+  <td> Record Keeper </td>
+</tr>
+</table>
+
+
+<ul>
+	<li>  <a href="#lab"> Lab section </a>
+	<li>  <a href="#xray"> Xray section </a>
+	<li>  <a href="#reception"> Reception section </a>
+</ul>
+
+Are you satisfied with our services </br>
+
+Yes:
+<input type="radio" name="yesorno" I am satisfied""> </br>
+No:
+<input type="radio" name="yesorno" I am not satisfied""> </br>
+
+Please pick an option </br>
+<select>
+	<option value="Lab"> Lab</option>
+	<option value="Xray"> Xray</option>
+	<option value="Receptions"> Receptions</option>
+</select> </br>
+
+
+Which sections are you most interested in? </br>
+
+	<input type="checkbox" name""> Lab </br>
+
+	<input type="checkbox" name""> Xray </br>
+
+	<input type="checkbox" name""> Reception </br>
+
+	<input type="checkbox" name"" checked="checked"> Nome </br>
+
+In a range of 1-10 what rate your satisfaction with Nome </br>
+	<input type=""number"" min="0" max="10"> </br>
+
+Enter date you came to Nome:
+
+	<input type="date" name="day">
+
+	Number of days: <input type="number" name="numdays" min="1" max="10">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p> <a name="Lab"> This is the section about Labs </a> </p>
+
+
+<tr>
+	<th> LABS </th> <br>
+
+
+<label for="PT Strip"> PT Strip: </td>
+	<input type="text" PT Strip""> <br>
+
+
+<label for=" 2ml syringe"> 2ml syringe: </td>
+	<input type="text" 2ml syringe""> <br>
+
+<label for="H-pylori"> H-pylori: </td>
+	<input type="text" H-pylori""> <br>
+
+<label for="5ml Syringe"> 5ml Syringe: </td>
+	<input type="text" 5ml Syringe""> <br>
+
+<label for="EDTA"> EDTA: </td>
+	<input type="text" EDTA""> <br>
+
+<label for="Universal bottle"> Universal bottle:</td>
+	<input type="text" Universal Bottle""> <br>
+
+<label for="RSV"> RSV: </td>
+	<input type="text" RSV""> <br>
+
+<p> <a name="Xray"> This is the section about Xray </a> </p>
+
+
+<tr>
+	<th> Xray <th>
+</tr>
+<br>
+
+<label for="Lumbosacral"> Lumbosacral: </td>
+	<input type="text" lumbosacral""> <br>
+
+
+<label for="cervical spine"> Spine: </td>
+	<input type="text" cervical Spine""> <br>
+
+
+<label for="cervical"> Cervical:</label>
+	<input type="text" Cervical""> <br>
+
+<label for="Skull"> Skull: </td>
+	<input type="text" Skull""> <br>
+
+<label for="Abdomen"> Abdomen: </td>
+	<input type="text" Abdomen""> <br>
+
+
+
+<p> <a name="Reception"> This is the section about Reception </a> </p>
+
+<tr> 
+	<th> Reception </tr>
+</tr>
+
+<label for="cash"> Cash Sales: </td>
+	<input type="text" Cash sales""> <br>
+
+<label for ="Sales record"> Sales record: <td>
+	<input type="text" Sales record""> <td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
